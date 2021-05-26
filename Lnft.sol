@@ -7,7 +7,7 @@ contract Lnft is ERC721,Ownable{
     event NftMinted(address indexed Minter,uint256 indexed TokenId,address indexed recipient,uint256  MintDate);
     event NftBurned(address indexed Burner,uint256 indexed TokenId,uint256 BurnDate,bool indexed IsOwnerBurned);
     event IpfsUpdate(address indexed Updater,uint256 indexed TokenId,uint256 UpdateDate,string  indexed PreviousIpfs,string  NewIpfs);
-    constructor() ERC721("DotMatrix NFT","DM"){
+    constructor() ERC721("LolCatNft","LNFT"){
         
     }
     function MintNft(address To,uint256 TokenId,string memory IpfsInfo)public onlyOwner returns(bool){
