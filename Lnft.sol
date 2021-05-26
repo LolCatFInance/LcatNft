@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: GNU
+// SPDX-License-Identifier: MITl
 pragma solidity ^0.8.0;
 
 import "./ERC721.sol";
